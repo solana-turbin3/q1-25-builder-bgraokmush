@@ -67,9 +67,9 @@ _For detailed examples and explanations, please refer to the specific folder doc
 ## 🛣 Roadmap
 
 - [x] TypeScript examples for Solana RPC interactions
-- [x] Rust examples for Solana RPC interactions
-- [x] Create SPL Token
-- [x] Create NFT
+- [ ] Rust examples for Solana RPC interactions
+- [ ] Create SPL Token
+- [ ] Create NFT
 - [ ] First Smart Contract
 - [ ] Create Barrow
 
