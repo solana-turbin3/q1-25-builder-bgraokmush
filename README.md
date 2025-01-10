@@ -23,6 +23,7 @@ The repository is organized into different sections to provide a comprehensive g
 ### 📂 Repository Structure
 
 - **[pre-request](./airdrop)**: This folder contains examples of interacting with Solana's RPC using TypeScript. It includes scripts to perform operations such as querying account data, sending transactions, and more.
+- **[rust-pre-request](./rust-prereq)**: This folder contains examples of interacting with Solana's RPC using Rust. It includes scripts to perform operations such as querying account data, sending transactions, and more.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -67,7 +68,7 @@ _For detailed examples and explanations, please refer to the specific folder doc
 ## 🛣 Roadmap
 
 - [x] TypeScript examples for Solana RPC interactions
-- [ ] Rust examples for Solana RPC interactions
+- [x] Rust examples for Solana RPC interactions
 - [ ] Create SPL Token
 - [ ] Create NFT
 - [ ] First Smart Contract
