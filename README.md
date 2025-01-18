@@ -24,6 +24,7 @@ The repository is organized into different sections to provide a comprehensive g
 
 - **[pre-request](./airdrop)**: This folder contains examples of interacting with Solana's RPC using TypeScript. It includes scripts to perform operations such as querying account data, sending transactions, and more.
 - **[rust-pre-request](./rust-prereq)**: This folder contains examples of interacting with Solana's RPC using Rust. It includes scripts to perform operations such as querying account data, sending transactions, and more.
+- **[spl-token](./spl-token)**: This folder contains examples of creating and interacting with SPL tokens on Solana. It includes scripts to create tokens and NFT, transfer tokens, and more.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
