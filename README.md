@@ -2,7 +2,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/your-username/Turbin3-Q4-Solana">
+  <a href="https://github.com/solana-turbin3/q1-25-builder-bgraokmush">
     <img src="logo.png" alt="Logo" width="100" height="100">
   </a>
   <h3 align="center">Turbin3 Q1 2025 Solana Education Repository</h3>
@@ -75,7 +75,7 @@ _For detailed examples and explanations, please refer to the specific folder doc
 - [ ] First Smart Contract
 - [ ] Create Barrow
 
-See the [open issues](https://github.com/your-username/Turbin3-Q4-Solana/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com//solana-turbin3/q1-25-builder-bgraokmush/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -99,9 +99,7 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 
 ## ✉️ Contact
 
-For questions or suggestions, feel free to reach out via [https://x.com/bgraokmush](my X account).
-
-Project Link: [https://github.com/your-username/Turbin3-Q4-Solana](https://github.com/your-username/Turbin3-Q4-Solana)
+For questions or suggestions, feel free to reach out via [bgraokmush](https://x.com/bgraokmush)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
