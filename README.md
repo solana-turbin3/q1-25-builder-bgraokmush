@@ -70,8 +70,8 @@ _For detailed examples and explanations, please refer to the specific folder doc
 
 - [x] TypeScript examples for Solana RPC interactions
 - [x] Rust examples for Solana RPC interactions
-- [ ] Create SPL Token
-- [ ] Create NFT
+- [X] Create SPL Token
+- [X] Create NFT
 - [ ] First Smart Contract
 - [ ] Create Barrow
 
