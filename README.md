@@ -26,6 +26,7 @@ The repository is organized into different sections to provide a comprehensive g
 - **[rust-pre-request](./rust-prereq)**: This folder contains examples of interacting with Solana's RPC using Rust. It includes scripts to perform operations such as querying account data, sending transactions, and more.
 - **[spl-token](./spl-token)**: This folder contains examples of creating and interacting with SPL tokens on Solana. It includes scripts to create tokens and NFT, transfer tokens, and more.
 - **[vault](./vault)**: This folder contains examples of creating and interacting with a vault on Solana. It includes scripts to create a vault, deposit and withdraw tokens, and more.
+- **[escrow](./escrow)**: This folder contains examples of creating and interacting with an escrow smart contract on Solana. It includes scripts to create an escrow, deposit and withdraw funds, and more.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -73,9 +74,10 @@ _For detailed examples and explanations, please refer to the specific folder doc
 - [x] Rust examples for Solana RPC interactions
 - [x] Create SPL Token
 - [x] Create NFT
-- [x] First Smart Contract
-- [x] Create Barrow
-- [] Create NFT Marketplace
+- [x] First Smart Contractw
+- [x] Create Vault
+- [x] Create Escrow
+- [ ] NFT Marketplace Contracts
 
 See the [open issues](https://github.com//solana-turbin3/q1-25-builder-bgraokmush/issues) for a full list of proposed features (and known issues).
 
