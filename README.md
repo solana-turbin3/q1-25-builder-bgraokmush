@@ -78,7 +78,7 @@ _For detailed examples and explanations, please refer to the specific folder doc
 - [x] First Smart Contractw
 - [x] Create Vault
 - [x] Create Escrow
-- [ ] NFT Marketplace Contracts
+- [x] NFT Marketplace Contracts
 
 See the [open issues](https://github.com//solana-turbin3/q1-25-builder-bgraokmush/issues) for a full list of proposed features (and known issues).
 
