@@ -27,6 +27,7 @@ The repository is organized into different sections to provide a comprehensive g
 - **[spl-token](./spl-token)**: This folder contains examples of creating and interacting with SPL tokens on Solana. It includes scripts to create tokens and NFT, transfer tokens, and more.
 - **[vault](./vault)**: This folder contains examples of creating and interacting with a vault on Solana. It includes scripts to create a vault, deposit and withdraw tokens, and more.
 - **[escrow](./escrow)**: This folder contains examples of creating and interacting with an escrow smart contract on Solana. It includes scripts to create an escrow, deposit and withdraw funds, and more.
+- **[nft-marketplace](./nft-marketplace)**: This folder contains examples of creating and interacting with an NFT marketplace smart contract on Solana. It includes scripts to list, delist, and purchase NFTs on the marketplace.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
