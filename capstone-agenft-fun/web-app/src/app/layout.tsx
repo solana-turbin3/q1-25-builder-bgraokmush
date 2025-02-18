@@ -1,16 +1,12 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
 import "./globals.css";
+import AppWalletProvider from "@/components/AppWalletProvider";
+import { NavBar } from "@/components/Navbar";
+import RedirectProvider from "@/components/RedirectProvider";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import "@radix-ui/themes/styles.css";
+import { Theme } from "@radix-ui/themes";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,11 +19,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+    <html
+      lang="en"
+      className={`${GeistSans.className} min-h-screen overflow-x-hidden scroll-auto bg-gray-50 selection:bg-purple-100 selection:text-purple-600 antialiased dark:bg-gray-950 dark:text-white`}
+    >
+      <body>
+        <Theme appearance="dark">
+          <AppWalletProvider>
+            <RedirectProvider>
+              <NavBar />
+              {children}
+            </RedirectProvider>
+          </AppWalletProvider>
+        </Theme>
       </body>
     </html>
   );
