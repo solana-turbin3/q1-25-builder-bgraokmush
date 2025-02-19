@@ -30,7 +30,7 @@ export function NavBar() {
     >
       <div className="w-full md:my-auto">
         <div className="relative flex items-center justify-between">
-          <Link href={siteConfig.baseLinks.home} aria-label="Home">
+          <Link href={siteConfig.url} aria-label="Home">
             <span className="text-white text-xl">
               Age<span className="text-purple-600 font-bold">NFT</span>.fun
             </span>

@@ -26,10 +26,7 @@ export default function RootLayout({
       <body>
         <Theme appearance="dark">
           <AppWalletProvider>
-            <RedirectProvider>
-              <NavBar />
-              {children}
-            </RedirectProvider>
+            <RedirectProvider>{children}</RedirectProvider>
           </AppWalletProvider>
         </Theme>
       </body>

@@ -1,8 +1,11 @@
 export const siteConfig = {
-    name: "Solar Technologies",
-    url: "https://solar.tremor.so",
-    description: "Automation for every Farm.",
+    name: "Insights",
+    url: "https://insights.tremor.so",
+    description: "The only reporting and audit dashboard you will ever need.",
     baseLinks: {
-        home: "/",
+        chat: "/chat",
+        profile: "/profile",
     },
 }
+
+export type siteConfig = typeof siteConfig

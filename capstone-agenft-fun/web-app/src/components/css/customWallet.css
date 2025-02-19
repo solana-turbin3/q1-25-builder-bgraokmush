@@ -1,0 +1,8 @@
+.wallet-adapter-dropdown-list {
+  top: -380% !important;
+  width: 100%;
+}
+
+.wallet-adapter-dropdown {
+  display: block;
+}
