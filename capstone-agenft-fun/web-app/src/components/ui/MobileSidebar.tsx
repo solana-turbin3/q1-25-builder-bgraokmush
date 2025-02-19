@@ -11,15 +11,7 @@ import {
 } from "@/components/Drawer";
 import { cx, focusRing } from "@/lib/utils";
 
-import {
-  BarChartBig,
-  Compass,
-  Menu,
-  MessageCircle,
-  Settings2,
-  Table2,
-  UserCog,
-} from "lucide-react";
+import { Compass, Menu, MessageCircle, UserCog } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import dynamic from "next/dynamic";
@@ -66,7 +58,7 @@ export default function MobileSidebar() {
               Age<span className="text-purple-600 font-bold">NFT</span>.fun
             </DrawerTitle>
           </DrawerHeader>
-          <DrawerBody className="flex flex-col items-stretch w-screen">
+          <DrawerBody className="flex flex-col items-stretch w-full">
             <nav
               aria-label="core mobile navigation links"
               className="flex flex-1 flex-col space-y-10"
@@ -131,7 +123,7 @@ export default function MobileSidebar() {
                 </ul>
               </div>
             </nav>
-            <div className="mt-auto border-t border-gray-200 pt-3 dark:border-gray-800 w-full">
+            <div className="mt-auto border-t border-gray-200 pt-3 dark:border-gray-800">
               <WalletMultiButtonDynamic
                 style={{
                   backgroundColor: "#9333ea",

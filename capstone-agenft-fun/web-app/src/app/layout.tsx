@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import AppWalletProvider from "@/components/AppWalletProvider";
-import { NavBar } from "@/components/Navbar";
 import RedirectProvider from "@/components/RedirectProvider";
 
 import "@radix-ui/themes/styles.css";

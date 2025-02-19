@@ -6,7 +6,6 @@ import { Spinner } from "@radix-ui/themes";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { useRouter, usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-
 const ProtectedLayout = ({ children }: { children: React.ReactNode }) => {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const toggleSidebar = () => {
@@ -36,10 +35,10 @@ const ProtectedLayout = ({ children }: { children: React.ReactNode }) => {
       <main
         className={cx(
           isCollapsed ? "lg:pl-[60px]" : "lg:pl-64",
-          "ease transform-gpu transition-all duration-100 will-change-transform  lg:py-3 lg:pr-3 "
+          "ease transform-gpu transition-all duration-100 will-change-transform"
         )}
       >
-        <div className="p-4 sm:p-6">{children}</div>
+        <div className="max-w-full h-screen">{children}</div>
       </main>
     </div>
   ) : null;

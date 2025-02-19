@@ -3,29 +3,19 @@ import { siteConfig } from "@/app/siteConfig";
 import { Tooltip } from "@/components/Tooltip";
 import { cx, focusRing } from "@/lib/utils";
 import {
-  BarChartBig,
   Compass,
   MessageCircle,
   PanelRightClose,
   PanelRightOpen,
-  Settings2,
-  Table2,
   User,
   UserCog,
 } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import MobileSidebar from "./MobileSidebar";
-import {
-  UserProfileDesktop,
-  UserProfileMobile,
-} from "@/components/UserProfile";
 import dynamic from "next/dynamic";
 import "./../css/customWallet.css";
-import { Button, ButtonProps } from "./Buttton";
-import { useWalletModal } from "@solana/wallet-adapter-react-ui";
-import { useWallet } from "@solana/wallet-adapter-react";
-import { useRef } from "react";
+import { Button } from "./Buttton";
 
 const navigation = [
   { name: "Chat", href: siteConfig.baseLinks.chat, icon: MessageCircle },
@@ -59,7 +49,6 @@ export function Sidebar({ isCollapsed, toggleSidebar }: SidebarProps) {
 
   return (
     <>
-      {/* sidebar (lg+) */}
       <nav
         className={cx(
           isCollapsed ? "lg:w-[60px]" : "lg:w-64",
@@ -176,7 +165,7 @@ export function Sidebar({ isCollapsed, toggleSidebar }: SidebarProps) {
                   {isCollapsed ? (
                     <Tooltip
                       side="right"
-                      content="Onboarding"
+                      content="Create"
                       sideOffset={6}
                       showArrow={false}
                       className="z-[999]"
@@ -193,7 +182,7 @@ export function Sidebar({ isCollapsed, toggleSidebar }: SidebarProps) {
                       )}
                     >
                       <Compass className="size-5 shrink-0" aria-hidden="true" />
-                      Onboarding
+                      Create
                     </Link>
                   )}
                 </li>
